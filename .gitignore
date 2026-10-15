@@ -1,0 +1,31 @@
+# Build artifacts
+/build/
+/out/
+*.o
+*.obj
+*.so
+*.a
+*.bc
+*.ll
+
+# Lifted / recompiled output (never commit the recompiled game binary)
+/gen/
+/recomp/
+witcher-*.so
+witcher-*.exe
+
+# IDA / Ghidra working files
+*.idb
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.ghidra/
+
+# Editor / OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
